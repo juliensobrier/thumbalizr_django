@@ -11,7 +11,7 @@ requirements = ['thumbalizr']
 
 setup(
     name='Thumablizr_tags',
-    version='1.0.0',
+    version='1.0.1',
     py_modules=['thumbalizr_tags'],
     scripts=['thumbalizr_tags.py', 'settings.py'],
     description='Use Thumbalizr in your Django templates',
