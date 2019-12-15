@@ -33,8 +33,8 @@ After installing Thumbalizr_tags, update your Djnago configurations:
 		...
     'thumbalizr_django'
 	]
-	
-	
+
+
 	# Thumbalizr settings
 	THUMBALIZR_SETTINGS = {
     'API_KEY': 'MY_KEY',
@@ -48,4 +48,3 @@ Then, in your templates, use the tumbalizr tag to generate the image URL. For ex
 
 	{% load thumbalizr_tags %}
 	<img src="{{ 'https://www.thumbalizr.com/'|thumbalizr:800 }}"/>
-
