@@ -7,7 +7,7 @@ You can install the library from PyPI: https://pypi.python.org/pypi/Thumbalizr_t
 
 The source code can be found on github at https://github.com/juliensobrier/thumbalizr_django
 
-This module add custom tags to Django to embed your Thumbalzir screenshots.
+This module add custom tags to Django to embed your Thumbalizr screenshots.
 
 
 
@@ -31,15 +31,15 @@ After installing Thumbalizr_tags, update your Djnago configurations:
 	
 	INSTALLED_APPS = [
 		...
-    'thumbalizr_django'
+		'thumbalizr_django'
 	]
 
 
 	# Thumbalizr settings
 	THUMBALIZR_SETTINGS = {
-    'API_KEY': 'MY_KEY',
-    'SECRET': 'MY_SECRET',
-    'WIDTH': '',
+		'API_KEY': 'MY_KEY',
+		'SECRET': 'MY_SECRET',
+		'WIDTH': '',
 	}
 
 Change MY_KEY to your Embed API key, and MY_SECRET with your Thumbalizr secret. You can add default values for the API call: WIDTH, BWIDTH, BHEIGHT, etc. If not set, Thumbalizr will use the default values for your profile.
